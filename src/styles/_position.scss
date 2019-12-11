@@ -1,0 +1,26 @@
+@each $position in $positions {
+  .position-#{$position} {
+    position: $position !important;
+  }
+}
+//垂直水平居中
+.vertical-level-center {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+//垂直居中
+.vertical-center {
+  position: absolute;
+  transform: translate(0, -50%);
+  left: 0;
+  top: 50%;
+}
+//水平居中
+.level-center {
+  position: absolute;
+  transform: translate(-50%, 0);
+  left: 50%;
+  top: 0;
+}

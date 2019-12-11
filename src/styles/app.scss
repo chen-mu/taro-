@@ -1,0 +1,13 @@
+// 自定义变量
+@import "overrides";
+@import "variables";
+
+// taro-ui 默认样式
+@import "font";
+@import "~taro-ui/dist/style/index.scss";
+
+// 自定义辅助类
+@import "position";
+@import "spacing";
+//样式
+@import "page";
